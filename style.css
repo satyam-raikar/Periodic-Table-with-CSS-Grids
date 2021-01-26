@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    /* background: url(https://images.unsplash.com/photo-1588420343618-6141b3784bce) no-repeat; */
+    background: linear-gradient(to right bottom, white, rgb(255, 94, 0));
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 20px;
+    padding: 20px;
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+    width: 60%;
+
+
+}
+
+.table-title {
+
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+
+/* --------------------------------------------------------------------------------Section 1 */
+.section-1 {
+
+    text-align: center;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(17, auto);
+    grid-gap: .3vw;
+
+}
+
+.element {
+
+    border-collapse: collapse;
+    border-radius: 9px;
+}
+
+
+.element-2 {
+    grid-column-start: 18;
+}
+
+.element-5,
+.element-13 {
+    grid-column-start: 13;
+}
+
+/* --------------------------------------------------------------------------------Section 2 */
+.section-2 {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(15, 1fr);
+    grid-gap: .3vw;
+    padding-left: 120px;
+    padding-right: 80px;
+
+
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-size: 12px;
+}
+
+.elements {
+    padding: 3px;
+    width: 40px;
+    height: 35px;
+    border-radius: 9px;
+    border-collapse: collapse;
+}
+
+/* 
+.element-57 , .element-89{
+    grid-column-start: 4;
+} */
+
+/* .element-71,.element-103{
+    grid-column-end: 17;
+} */
+/* --------------------------------------------------------------------------------Section 3 */
+.section-3 {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-gap: .5vw;
+
+    padding-left: 100px;
+    padding-right: 100px;
+
+    font-size: 12px;
+
+}
+
+.elementss {
+
+    border-collapse: collapse;
+    border-radius: 10px 0px 10px 10px;
+    padding: 10px;
+}
+
+
+
+/* --------------------------------------------------------------------------------Elements */
+.nonmetal {
+    background: rgba(99, 255, 229, .9);
+}
+
+.noble {
+    background: rgba(255, 0, 128, .9);
+}
+
+.transition {
+    background: rgba(255, 255, 0, .9);
+
+}
+
+.alkali {
+
+    background: rgba(77, 130, 174, .9);
+
+}
+
+.alkaline {
+    background: rgba(145, 54, 164, .9);
+}
+
+.semimetal {
+    background: rgba(205, 133, 63, .9);
+}
+
+.basic-metal {
+    background: rgba(255, 99, 71, .9);
+}
+
+.halogen {
+    background: rgba(255, 69, 0, .9);
+}
+
+.lanthanide {
+    background: rgba(153, 65, 31, .9);
+}
+
+.actinide {
+    background: rgba(0, 128, 0, .9);
+}
+
+
